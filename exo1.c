@@ -11,7 +11,12 @@ int main(){
             printf("veuillez saisir un entier negatif:");
         scanf("%d",x);
         }while(x>0);
-        printf("le nombre que tu as saisi est:%d",x);
+        if(x%2==0){
+            somme+=x;
+            cpp++;
+        }
+
     }
+    moy=somme/cpt;
 return 0;
 }
